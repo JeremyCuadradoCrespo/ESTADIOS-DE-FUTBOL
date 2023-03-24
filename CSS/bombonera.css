@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#hero{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../IMG/boca.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;}
+    #estadio .container{
+        display: flex;
+
+    }
+    ul{
+        text-align: center;
+        padding: 9px 0px;
+    }
+.img{
+    size-adjust: auto;
+    size: 25%;
+    text-align: center;
+    padding: 0;
+}
+.hola{
+    display: inline-block;
+    text-align: center;
+    background: var(--color);
+    color: var(--bg);
+    font-weight: bold;
+    padding: 1.18em 1.32em 1.03em;
+    line-height: 1;
+    border-radius: 1em;
+    position: relative;
+    min-width: 8.23em;
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: 1.25rem;
+}
+body{
+    font-family: sans-serif;
+    padding: 90px 20px 0px;
+    margin: 0;
+    min-height: 100vh;
+}
+h1{font-size: 3.5em;}
+h2{font-size: 2.5em;
+font-weight: 400;
+text-align: center;
+padding: 20px 0;
+}
+p{font-size: 1.25em;}
+ul{font-size: 1.10em;}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+.header{
+    background-color: rgb(48, 85, 232);
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 30px;
+    line-height: 70px;
+    width: max-content;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+
+}
+.nav-menu-item{
+    font-size: 16px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+.nav-menu-link:hover, 
+.nav-menu-link_active {
+    background-color: rgb(43, 48, 204);
+    transition: 1s;
+}
+.nav-toggle{
+    color: rgb(0, 0, 0);
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 10px;
+    line-height: 60px;
+    display: none;
+    cursor: pointer;
+
+}
+button{
+    cursor: pointer;
+}
+:root {
+    --bg: #1a1e24;
+    --color: rgb(48, 85, 232);
+    --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+    padding: 1.5rem 0;
+    filter: url('#goo');
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    background: var(--color);
+    color: var(--bg);
+    font-weight: bold;
+    padding: 1.18em 1.32em 1.03em;
+    line-height: 1;
+    border-radius: 1em;
+    position: relative;
+    min-width: 8.23em;
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: 1.25rem;
+}
+
+.button:before,
+.button:after {
+    width: 4.4em;
+    height: 2.95em;
+    position: absolute;
+    content: "";
+    display: inline-block;
+    background: var(--color);
+    border-radius: 50%;
+    transition: transform 1s ease;
+    transform: scale(0);
+    z-index: -1;
+}
+
+.button:before {
+    top: -25%;
+    left: 20%;
+}
+
+.button:after {
+    bottom: -25%;
+    right: 20%;
+}
+
+.button:hover:before,
+.button:hover:after {
+    transform: none;
+}
+.linea{
+    background: rgb(80, 146, 75) ;
+    height: 5px;
+    width: 100%;
+    display: block;
+}
+footer {
+    background-color: rgb(43, 48, 204);
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 40px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo img {
+    height: 200px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    color: #1A1A1A;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .social-links a:hover {
+    background-color: #FFC107;
+    color: #FFFFFF;
+  }
+  
+  .fa-facebook {
+    color: #3B5998;
+  }
+  
+  .fa-instagram {
+    color: #E1306C;
+  }
+  
+  .fa-tiktok {
+    color: #000000;
+  }
+  
+  .fa-youtube {
+    color: #FF0000;
+  }
+@media only screen and /*<- Ahora hay un espacio ahí ves?*/(max-width: 897px){
+    .logo{
+        font-size: 25px;
+        padding: 0 35px;
+        line-height: 25px;
+        width: max-content ;
+    }
+}
+@media only screen and /*<- Ahora hay un espacio ahí ves?*/(max-width: 768px){
+    #hero{
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 90vh;
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("../IMG/boca.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    #estadio .container{
+        text-align: center;
+        padding: 200px 12px;
+
+    }
+    
+    #juegos-importantes{
+        text-align: center;
+        padding: 250px 12px;
+    }
+    #juegos-importantes li{
+        margin: 30px 0px;
+        font-weight: bold;
+    }
+    #imagenes{
+        text-align: center;
+    }
+    body{
+        padding-top: 70px;
+    }
+    .header{
+        height: 60px;
+    }
+    .logo{
+        font-size: 25px;
+        padding: 0 35px;
+        line-height: 25px;
+        width: max-content ;
+    }
+    .nav-menu{
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0px;
+        background-color: rgb(24, 58, 112);
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100%;
+        padding: 20px 0;
+        height: calc(100% - 60px);
+        overflow-y: auto;
+        left: 100%;
+        transition: left 0.3s;
+    }
+    .nav-menu-item{
+        line-height: 70px;
+    }
+    .nav-menu-link:hover,
+    .nav-menu-link_active{
+        background: none;
+        color:rgb(3, 3, 3)
+    }
+    .nav-toggle{
+        display: block;
+    }
+    .nav-menu_visible{
+        left: 0%;
+    }
+}

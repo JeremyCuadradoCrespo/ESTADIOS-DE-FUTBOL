@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria BERNABEU</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/galeriabern.css"/>
+</head>
+
+<body>
+    <h1>FOTOS SANTIAGO BERNABÉU</h1>
+    <div id="kiko-slider">
+
+        <ul class="slider">
+            <li id="slide1">
+                <img src="../IMG/unobern.jpg" />
+            </li>
+            <li id="slide2">
+                <img src="../IMG/dosbern.jpg" />
+            </li>
+            <li id="slide3">
+                <img src="../IMG/tresbern.jpg" alt="">
+            </li>
+            <li id="slide4">
+                <img src="../IMG/cuatrobern.avif" alt="">
+            </li>
+            <li id="slide5">
+                <img src="../IMG/cincobern.png" alt="">
+            </li>
+            <li id="slide6">
+                <img src="../IMG/seisbern.webp" alt="">
+            </li>
+        </ul>
+
+        <ul class="menu">
+            <li>
+                <a href="#slide1">1</a>
+            </li>
+            <li>
+                <a href="#slide2">2</a>
+            </li>
+            <li>
+                <a href="#slide3">3</a>
+            </li>
+            <li>
+                <a href="#slide4">4</a>
+            </li>
+            <li>
+                <a href="#slide5">5</a>
+            </li>
+            <li>
+                <a href="#slide6">6</a>
+            </li>
+        </ul>
+
+    </div>
+
+    <form action="../HTML/estadioazteca.html">
+        <div class="wrapper">
+            <a class="button" href="../HTML/bernabeu.html">Volver</a>
+        </div>
+        <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <defs>
+                <filter id="goo">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                    <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+                </filter>
+            </defs>
+        </svg>
+    </form>
+</body>
+
+</html>
